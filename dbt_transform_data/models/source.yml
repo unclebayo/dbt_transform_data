@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: public
+    description: My source data
+    schema: public
+
+    tables:
+      - name: crime_data
+        identifier: crime_data
+
+  
+  - name: transformed
+    description: cleansed data or warehouse data
+    schema: transformed
+
+    # tables:
+    #   - name: city_crime_data
+    #     identifier:

@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: crime_data
+    desccription: my crime dataset table
+    # columns:
+    #   - name:
+    #     description: 
