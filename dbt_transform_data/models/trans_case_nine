@@ -1,0 +1,11 @@
+
+{{ config(materialized='table') }}
+
+
+SELECT 
+    "ward",
+    count("ward") 
+FROM 
+    {{ source('public', 'crime_data')}}
+GROUP BY  
+    "ward"
